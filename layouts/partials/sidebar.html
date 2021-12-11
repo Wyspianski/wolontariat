@@ -1,0 +1,36 @@
+<aside class="container mx-auto px-4">
+		<div class="py-4">
+			<hr />
+		</div>
+		<div>
+			<h3 class="text-center text-2xl font-medium">Najnowsze posty:</h3>
+		</div>
+
+		<div class="py-4 flex flex-col">
+			{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+			<!--Card 1-->
+			<a href="{{ .RelPermalink }}" class="no-underline flex flex-1">
+				<div class="w-full lg:max-w-full lg:flex">
+					<div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+						style="background-image: url({{.Params.thumbnail}})"
+						title="Mountain">
+					</div>
+					<div
+						class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal flex flex-1">
+						<div class="mb-8">
+							<div class="text-gray-900 font-bold text-xl mb-2">{{ .Title }}</div>
+							<p class="text-gray-700 text-base">{{ .Params.description }}</p>
+						</div>
+						<div class="flex items-center">
+							<img class="w-10 h-10 rounded-full mr-4" src="/8lo_logo_color.png" alt="Logo szkoły">
+							<div class="text-sm">
+								<p class="text-gray-900 leading-none">Sekcja Wolontariatu VIII LO</p>
+								<time class="text-gray-600" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "02.01.2006 15:04" }}</time>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+			{{ end }}
+		</div>
+</aside>
