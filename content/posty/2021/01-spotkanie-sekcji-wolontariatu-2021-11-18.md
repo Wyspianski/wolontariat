@@ -2,8 +2,8 @@
 categories = ['Spotkania', 'Organizacyjne']
 date = '2021-11-18'
 description = 'Relacja z pierwszego rekrutacyjnego spotkania Szkolnego Koła Wolontariatu w VIII LO.'
-slug = 'spotkanie-sekcji-wolontariatu'
-tags = ['spotkania', 'ogloszenia', 'organizacyjne', 'viii lo']
+slug = 'spotkanie-sekcji-wolontariatu-2021-11-18'
+tags = ['Spotkania', 'Ogłoszenia', 'Organizacyjne', 'VIII LO']
 title = 'Spotkanie sekcji wolontariatu'
 subtitle = ''
 thumbnail = 'https://images.unsplash.com/photo-1637964336608-7c18b9e2aba9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=marek-piwnicki-2JjdBanf_mE-unsplash.jpg'

@@ -6,10 +6,22 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      typography: {
+        lg: {
+          css: {
+            img: {
+              marginTop: "0px",
+              marginBottom: "0px",
+              maxHeight: "500px",
+            },
+          },
+        },
+      },
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'),],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

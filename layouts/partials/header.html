@@ -1,15 +1,12 @@
-<header class="flex justify-center p-4">
+<header class="flex justify-center text-center flex-col p-4">
 	<a href="{{ .Site.BaseURL }}" class="flex flex-row justify-center items-center text-2xl text-yellow-500 no-underline">
 		<img src="/wolontariat/8lo_logo_color.png" height="75px" width="75px"/>
 		<span class="p-2">{{ .Site.Title }}</span>
 	</a>
-	{{ with .Site.Menus.main }}
-	<nav>
-		<ul>
-			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-			{{ end }}
+	<nav >
+		<ul class="flex flex-row justify-center">
+			<li><a class="mx-1 text-gray-600 no-underline" href="{{ .Site.BaseURL }}">Strona główna</a></li>
+			<li><a class="mx-1 text-gray-600 no-underline"  href="{{ .Site.BaseURL }}kontakt">Kontakt</a></li>
 		</ul>
 	</nav>
-	{{ end }}
 </header>
