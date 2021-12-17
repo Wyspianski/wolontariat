@@ -1,6 +1,6 @@
 +++
 categories = ['Akcje']
-date = '2021-12-03'
+date = '2021-12-10'
 description = 'Zaangażowanie się w tworzenie kartek świątecznych dla chorych.'
 slug = 'szlachetna-paczka'
 tags = ['Akcje', 'Szlachetna Paczka', 'VIII LO']
