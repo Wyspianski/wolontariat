@@ -1,7 +1,7 @@
 +++
 categories = ['Akcje']
 date = '2021-12-10'
-description = 'Zaangażowanie się w tworzenie kartek świątecznych dla chorych.'
+description = 'Zbieranie prezentów dla potrzebujących w ramach Szlachetnej Paczki.'
 slug = 'szlachetna-paczka'
 tags = ['Akcje', 'Szlachetna Paczka', 'VIII LO']
 title = 'Szlachetna Paczka'
